@@ -1,0 +1,31 @@
+first install virtualenviorment
+python3 -m venv .venv
+then activate a virtual enviornment 
+.venv\Scripts\activate
+
+install the django 
+pip3 isntall django
+
+install the djangorestframework
+pip3 install djangorestframework
+
+Initialize the django project
+django-admin startproject crud_proj .
+
+Run Our Django Project 
+python3 manage.py runserver
+
+create the new app 
+python3 manage.py startapp crud_api
+
+adding the app into the Installed_apps both api and restframework
+
+setup the database of mysql 
+app-settings--databases
+then run 
+python manage.py makemigrations
+python manage.py migrate
+
+
+models.py
+ create table 
