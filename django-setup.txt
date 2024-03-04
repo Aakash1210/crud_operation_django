@@ -1,3 +1,6 @@
+ pip freeze > requirements.txt --- to add all the depandancy into the file
+ 
+
 first install virtualenviorment
 python3 -m venv .venv
 then activate a virtual enviornment 
